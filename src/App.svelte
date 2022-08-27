@@ -27,7 +27,7 @@
 
 <h1 class="title">Harry Pother Character</h1>
 
-<div>
+<div class="container">
   <div class="btns">
     <button class="btn" on:click={previousPage} disabled={page === 1}>Previous</button>
     <button class="btn" on:click={nextPage}>Next</button>
