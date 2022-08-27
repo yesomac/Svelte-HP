@@ -1,0 +1,141 @@
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #090b14;
+  display: flex;
+  justify-content: center;
+  color: rgb(180, 180, 241);
+}
+
+.container {
+  max-width: 1300px;
+  box-shadow: 10px 25px 25px rgb(20, 20, 71);
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(130, 130, 255);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.img-character {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 15px 15px 15px black;
+}
+
+.character {
+  background-color: #0f1327;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 23px 23px black;
+}
+  .character h1 {
+    background-color: #181e3a;
+    height: 40px;
+  }
+
+.btns {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #6f6ff0;
+  border-radius: 5px;
+  background-color: #253274;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: white;
+}
